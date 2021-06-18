@@ -1,0 +1,36 @@
+.color-wrapper{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+.color {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin: 6px;
+    transition: 250ms ease;
+
+}
+.color:active{
+    transform: scale(0.9);
+}
+.color:hover{
+    opacity: 0.8;
+}
+.c-blue{
+    background-color: #2028BD;
+}
+.c-orange{
+    background-color: #F0A27B;
+}
+.c-red{
+    background-color: #e50b0b;
+}
+body{
+    background-color: #0000bf;
+}
